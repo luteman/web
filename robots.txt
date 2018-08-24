@@ -1,0 +1,14 @@
+# robots.txt auf www.hecker-continuo.de/
+User-agent: *
+Crawl-delay: 10
+# Directories
+Disallow: /navigation/
+Disallow: /wsc87959972/
+Disallow: /logs/
+Disallow: /navigation/
+Disallow: /neu/
+Disallow: /include/
+# Files
+Disallow: /info.php
+Disallow: /index.bau
+Disallow: /robots.old

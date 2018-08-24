@@ -1,0 +1,309 @@
+html, body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size:100.01%;
+    padding:0;
+    margin: 10px 0 0;
+    color:#ddd;
+    background-color: #999;
+}
+
+#gesamt {
+    background-image: url(/hintergrund/hintergrund.gif);
+    background-repeat: repeat-y;
+    width: 48em;
+    margin: auto;
+    padding-bottom: 3em;
+    border-style: solid;
+    border-color: #000;
+    border-width: 0 1px 0 0;
+}
+
+h1, h2, h3         { color: white; }
+
+h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 130%;
+    text-align: left;
+}
+
+h2, h3 {
+  font-style: normal;
+  font-weight: normal;
+}
+h1  { font-style: italic; }
+h2  { font-variant:small-caps;}
+h3 {
+  font-size: 110%;
+  margin-left: 1em;
+}
+h6 {
+  font-size: 100%;
+  color: #fe0;
+  margin: 1em 0 0.5em;
+  font-weight: normal;
+}
+
+#inhalt img {
+  border: 1px solid #000;
+}
+#inhalt p, #footer p, #inhalt li {
+  font-size: 0.85em;
+  line-height: 1.4em;
+}
+/*
+#inhalt p, #inhalt div {
+  color: #ddd;
+}
+*/
+a             { text-decoration:underline; }
+
+a:link,
+a:visited,
+a:active      { color:#DDD; }
+a:hover       { color:#fff; }
+
+em {
+  color:#FFF;
+  font-style:normal;
+  font-weight:bold;
+}
+
+em a:link,
+em a:visited,
+em a:active   { color:#fff; }
+em a:hover    { color:#fe0; }
+
+hr {
+  height: 2px;
+  color: #888;
+  background-color: #888;
+  border: 0;
+  margin-bottom: 1.5em;
+}
+
+
+/* Überschrift / Rahmen */
+
+
+
+
+/* Navigation */
+#navigation {
+    width:240px;
+    background-image:url(/navigation/nav_hint.gif);
+    padding:0;
+    float:left;
+}
+
+.nav_oben, .nav_unten {
+    padding:0;
+    margin:0;
+    width:240px;
+    height:32px;
+}
+.nav_oben {
+  background: url(/hintergrund/oben.gif) no-repeat;
+}
+.nav_unten {
+  background: url(/hintergrund/unten.gif) no-repeat;
+}
+
+#navigation ul
+{
+  padding: 0;
+  margin: 0.5em 0 0;
+}
+#navigation li
+{
+  list-style-type: none;
+  height: 3em;
+  margin: 0;
+}
+#navigation li.aktiv
+{
+  background: url(/navigation/h.gif) no-repeat left top;
+  color: #fe0;
+  font-family: Arial, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  padding-left: 45px;
+  padding-top:  0.3em;
+}
+#navigation li a
+{
+  padding-left: 45px;
+  padding-top: 0.3em;
+  background: url(/navigation/n.gif) no-repeat left top;
+  display: block;
+/*  width: 175px;*/
+  text-decoration:none;
+  color:white;
+  height: 3em;
+  font-family: Arial, sans-serif;
+  font-style:italic;
+  font-weight:bold;
+}
+#navigation li a:hover
+{
+  background: url(/navigation/m.gif) no-repeat 0px top;
+}
+
+/* verschiedene Schrift-Formatierungen */
+.abstand {
+  margin-top: 1.5em;
+}
+.bild {
+/*  text-align:right;*/
+  margin: 0 10px 10px;
+  float :right;
+}
+
+.media {
+    font-size: 70%;
+    color: #F9CA84;
+}
+
+.klein {
+    font-size:70%;
+    margin: 0;
+    color: #FFA497;
+}
+.musik, .pdf {
+  width: 25em;
+}
+.musik {
+/*  margin-left: 40px;*/
+  list-style-image:url(/include/note.gif);
+}
+.pdf {
+  list-style-image:url(/include/adobeReader.gif);
+}
+
+/* Webseiteninhalt */
+#inhalt {
+    margin: 0 10px 10px 250px;
+/*    min-width:39em;*/
+}
+
+#inhalt .toplink {
+    text-align: right;
+    clear: right;
+}
+
+#inhalt .toplink img {
+    border-style:none;
+    width: 48px;
+    height: 48px;
+}
+
+a.titel {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+#titel {
+    background-image: url(/hintergrund/bach_hintergrund.jpg);
+    padding:15px 0;
+    border-bottom: 1px solid #000;
+    border-style: solid;
+    border-color: #000;
+    border-width: 1px 0 1px 1px;
+/*    min-height:84px;*/
+}
+
+#titel h1, #titel h2 {
+  position: absolute;
+  left: -2000px;
+/*
+    font-family:Arial;
+    font-style:normal;
+    text-align:center;
+    color:#fe0;
+*/
+}
+
+#titel .h1
+{
+  background: url(/hintergrund/tobias_hecker.gif) no-repeat;
+  width: 376px;
+  height: 35px;
+/*
+  width: 527px;
+  height: 49px;
+*/
+}
+
+#titel .h2
+{
+  background: url(/hintergrund/instrumente.gif) no-repeat;
+  width: 282px;
+  height: 20px;
+/*
+  width: 381px;
+  height: 27px;
+*/
+}
+
+#titel .h1, #titel .h2
+{
+  margin: auto;
+}
+
+#footer {
+/*  background-image: url(../hintergrund/footer.gif);*/
+  background-color: #48494b;
+  text-align:center;
+  padding:5px 0;
+  border-style: solid;
+  border-color: #fe0;
+  border-width: 1px 0 0;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+}
+
+#footer p {
+/*    line-height: 0.5em;*/
+    color:#fe0;
+    margin: 0;
+}
+
+#footer .left  {
+  float: left;
+  margin-left: 5px;
+  width: 62px;
+}
+#footer .right {
+  float: right;
+  margin-right: 5px;
+  width: 62px;
+}
+*/
+.left img, .right img
+{
+  border-style: none;
+  width: 62px;
+  height: 22px;
+}
+
+#footer a {
+    color:#fe0;
+}
+
+/* _________________________  Fixed FOOTER auch für IE6 __________________________________________________________________ */
+/*
+* html {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+* html body {
+  overflow: auto;
+  height: 100%;
+  width: 100%;
+}
+* html #footer {
+  position: absolute;
+}
+*/

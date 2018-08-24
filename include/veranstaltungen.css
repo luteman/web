@@ -1,0 +1,82 @@
+h2                               { text-align:center }
+
+.klein                           { font-size:70%; }
+
+
+td .anker                        { text-decoration:none; }
+
+tr#ueberschrift td               { border-width:2px;
+                                   font-weight:bold;
+                                   text-align:center;
+                                   padding-top:0;
+                                   color:#ddd;
+/*                                   min-width:100px;*/
+                                 }
+
+tr.schluss td                    { border-bottom-width:1px;
+                                 }
+
+tr.begin td                      { border-top-width:1px;
+                                   padding-top:0;
+                                 }
+
+.veranstaltung                   { min-width:39em;
+                                   text-align: left;
+/*                                   border-color:#999;*/
+                                   table-layout:fixed;
+                                   border-collapse:collapse;
+                                 }
+
+* html .veranstaltung             { width: 75%; }
+
+.veranstaltung td                { border-style:solid;
+                                   border-width:0px 1px;
+                                   line-height: 1.4em;
+                                   vertical-align: top;
+                                   border-color:#999;
+                                   padding-top: 1em;
+                                 }
+
+.veranstaltung td div            { padding:0;
+                                   margin:0;
+                                 }
+
+.veranstaltung td div.abstand    { margin-top:1.4em; }
+
+.veranstaltung td.spalte1        { width:6em; }
+
+.veranstaltung td.spalte2 {
+    width:15em;
+}
+
+.veranstaltung td.spalte3 {
+    width:15em;
+}
+
+.veranstaltung td.spalte4        { width:9em; }
+
+* html .veranstaltung td.spalte2 { width:12em; }
+* html .veranstaltung td.spalte3 { width:12em; }
+
+
+
+#titel, #footer { min-width:54em; }
+
+ul { margin-top:0; }
+
+ul.pdf {
+    list-style-image:url(/include/adobeReader.gif);
+    margin:0;
+    padding-left:2em;
+    padding-top:0.8em;
+}
+
+li { padding-top:0.5em; }
+
+.monat {
+    width:50%;
+}
+
+* html .monat {
+    width:40%;
+}

@@ -1,0 +1,14 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"
+   "http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+<head>
+<title>Text des universellen Titels</title>
+</head>
+<frameset cols="0,">
+  <frame src="bau.html" name="B">
+  <frame src="bau.html" name="Bau">
+  <noframes>
+    Ihr Browser kann diese Seite leider nicht anzeigen!
+  </noframes>
+</frameset>
+</html>

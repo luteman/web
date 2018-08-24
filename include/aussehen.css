@@ -1,0 +1,207 @@
+html, body {
+    font-family: Georgia, Arial, Helvetica, sans-serif;
+    background-image: url(/hintergrund/hintergrund5.gif);
+    font-size:100.01%;
+    padding:0;
+    margin:0;
+    color:#ddd;
+}
+
+#gesamt {
+    background-image: url(/hintergrund/hintergrund.gif);
+    background-color:#333f65;
+    background-repeat:repeat-y;
+    min-width:55em;
+    padding-bottom:1em;
+    background-color:#333f65;
+}
+
+h1, h2, h3         { color: white; }
+
+h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 130%;
+    text-align: left;
+}
+
+h2, h3             { font-style: normal;
+                     font-weight: normal;
+                   }
+
+h1                 { font-style: italic; }
+
+h2                 { font-variant:small-caps;}
+
+h3 {
+    font-size: 110%;
+    margin-left: 1em;
+}
+
+p, div {
+    color: #DDDDDD;
+    line-height: 1.4em;
+}
+
+a                  { text-decoration:underline; }
+
+a:link             { color:#DDD; }
+a:visited          { color:#DDD; }
+a:active           { color:#DDD; }
+a:hover            { color:#fff; }
+
+em                 { color:#FFF;
+                     font-style:normal;
+                     font-weight:bold;
+                   }
+
+em a:link             { color:#fff; }
+em a:visited          { color:#fff; }
+em a:active           { color:#fff; }
+em a:hover            { color:#fe0; }
+
+td { vertical-align:top; }
+
+hr {
+    height:1px;
+    color:#888;
+    background-color:#888;
+    border:0px;
+}
+
+
+/* Überschrift / Rahmen */
+.titel_links {
+    margin:0;
+    padding:0;
+    border:0;
+    height:75px;
+    float:left;
+}
+
+.titel_rechts {
+    margin:0;
+    border:0;
+    padding:0;
+    height:75px;
+    float:right;
+}
+
+
+
+
+/* Navigation */
+#navigation {
+    width:240px;
+    background-image:url(/navigation/nav_hint.gif);
+    padding:0;
+    float:left;
+}
+
+.navigationsfeld {
+    padding:0;
+    margin:0;
+    width:240px;
+    height:32px;
+    color:#fe0;
+}
+
+.navigationsfeld a {
+    text-decoration:none;
+    color:white;
+}
+
+.navigationsfeld a:link       { color:white; }
+.navigationsfeld a:visited    { color:white; }
+
+#navigation td.links {
+    width:40px;
+}
+
+#navigation td.rechts {
+    width:200px;
+}
+
+.navdiv {
+    line-height:30px;
+    margin-left:0px;
+    padding-left:0.3em;
+    font-family: Arial, sans-serif;
+    font-style:italic;
+    font-weight:bold;
+}
+
+
+/* verschiedene Schrift-Formatierungen */
+.medium {
+    font-size: 70%;
+    color: #F9CA84;
+}
+
+.klein {
+    font-size:80%;
+}
+
+.eingerueckt {
+    margin-left: 40px;
+}
+
+/* Webseiteninhalt */
+#inhalt {
+    margin: 0 10px 10px 250px;
+    min-width:39em;
+}
+
+.toplink {
+    text-align: right;
+    clear: right;
+}
+
+.toplink img {
+    border-style:none;
+    width: 48px;
+    height: 48px;
+}
+
+a.titel {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+#titel {
+    background-image: url(/hintergrund/hintergrund5.gif);
+    padding:10px 0;
+    border-bottom: 1px solid #fe0;
+    min-height:84px;
+}
+
+#titel h1, #titel h2 {
+    font-family:Arial;
+    font-style:normal;
+    text-align:center;
+    color:#fe0;
+}
+
+#titel h1 {
+    font-size:2em;
+    margin-top:0.5em;
+}
+
+#titel h2 {
+    font-size:1.2em;
+}
+
+#footer {
+    clear:both;
+/*    background-image: url(../hintergrund/hintergrund5.gif);*/
+    text-align:center;
+    padding:10px;
+    border-top: 1px solid #fe0;
+}
+
+#footer div {
+    color:#fe0;
+}
+
+#footer a {
+    color:#fe0;
+}

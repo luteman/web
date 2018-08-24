@@ -1,0 +1,61 @@
+h2 { text-align: center; }
+h3 {
+  color: #fe0;
+  border-bottom: 1px solid #fe0;
+  margin: 0 0 1em;
+}
+em {
+  color: #eaeaea;
+}
+ul {
+  list-style-type: disc;
+}
+.left {
+  float: left;
+  text-align: left;
+}
+#inhalt ul {
+  width: 35%;
+  float: left;
+}
+#inhalt table ul {
+  width: 20em;
+  float: none;
+  margin: 0;
+  padding-left: 2em;
+  font-size: 1.2em;
+  list-style-type: none;
+}
+table {
+  font-size: 0.85em;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #999;
+  background-color:#555;
+  color: #eee;
+}
+td {
+  padding: 0.2em;
+  vertical-align: top;
+}
+.spalte1 {
+  width: 8em;
+  text-align: right;
+  border-right: 1px solid #999;
+}
+.prog {
+  border-top: 1px solid #999;
+  background-image: url(/hintergrund/ver_hint.gif);
+}
+.artist td {
+  padding-top: 1em;
+}
+.linkthema {
+  width: 8em;
+}
+.stand {
+  text-align: center;
+}
+.monat {
+  height: 8em;
+}

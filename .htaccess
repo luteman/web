@@ -1,0 +1,27 @@
+Allow from all
+Options +MultiViews
+AddType text/html;charset=iso-8859-1; .html
+AddType application/xhtml+xml;charset=iso-8859-1;qs=0.999 .xhtml
+ErrorDocument 403 /error403.html
+ErrorDocument 404 /error404.html
+
+Redirect permanent /tob/cembalo.html http://www.hecker-continuo.de/instrumente/#Cembalo
+Redirect permanent /cembalo.html http://www.hecker-continuo.de/instrumente/#Cembalo
+Redirect permanent /tob/laute.html http://www.hecker-continuo.de/instrumente/#Laute
+Redirect permanent /laute.html http://www.hecker-continuo.de/instrumente/#Laute
+Redirect permanent /gitarre.html http://www.hecker-continuo.de/instrumente/
+Redirect permanent /veranstaltungen.html http://www.hecker-continuo.de/veranstaltungen/
+Redirect permanent /foto.html http://www.hecker-continuo.de/foto/
+Redirect permanent /programme.html http://www.hecker-continuo.de/programme/
+Redirect permanent /tob.html http://www.hecker-continuo.de/tob/
+Redirect permanent /links.html http://www.hecker-continuo.de/links/
+Redirect permanent /kontakt.html http://www.hecker-continuo.de/kontakt/
+Redirect seeother /4560.html http://www.hecker-continuo.de/
+Redirect seeother /4617.html http://www.hecker-continuo.de/
+Redirect seeother /4671.html http://www.hecker-continuo.de/
+Redirect seeother /4806.html http://www.hecker-continuo.de/
+Redirect seeother /20180.html http://www.hecker-continuo.de/
+Redirect seeother /20207.html http://www.hecker-continuo.de/
+Redirect seeother /4779.html http://www.hecker-continuo.de/
+Redirect seeother /62401.html http://www.hecker-continuo.de/
+Redirect seeother /62432.html http://www.hecker-continuo.de/
